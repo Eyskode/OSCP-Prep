@@ -1,9 +1,0 @@
-The flag from the previous Level is the password for the user Bandit1 se we just need to connect.
-After using our ls we'll se a file called "-"
-we can't use the comand: cat - because it will wait for an option Like cat -A , -b , -e et.
-A way to evade this is just aplying cat to the full route
-cat /home/bandit1/-
-cat ./-
-The ./ means "On this directory"
-So we get the flag
-CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
