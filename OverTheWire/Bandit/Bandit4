@@ -1,0 +1,6 @@
+In this Level we have to find the unique Human-Readable file in the "inhere" directory.
+So we can just use the file comand so we can see the file format
+command: file ./*
+the * means that will do the command file for all the files in the directory
+we can see that the "-file07" is ASCII Text so we just cat ./-file07 and we'll get the flag
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
