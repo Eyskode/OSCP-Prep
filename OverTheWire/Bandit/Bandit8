@@ -1,0 +1,7 @@
+The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
+
+Command: cat data.txt | sort | uniq -u
+
+First we will cat data, then we sort it alphabetically, after that we use the uniq command with the parameter -u which finds the line that occurs only once
+
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
