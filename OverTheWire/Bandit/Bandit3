@@ -1,0 +1,8 @@
+In this Level we'll find a Directory called inhere
+If we just try to list the directory using ls we'll se that is empty
+so we just need to add the option -a to our ls so we can see all the files also the hidden ones
+Command: ls -a
+we'll se a Fille called ".hidden" in linux all the files that starts with "." will be hidden
+so we just need to: cat .hidden 
+And we've got the flag
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
