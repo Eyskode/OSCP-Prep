@@ -1,0 +1,8 @@
+For this Level we just need to log in through SSH to the OverTheWire lab on the Port 2220
+The User and Password is given bandit0:bandit0
+So the command must be:
+ssh bandit0@bandit.labs.overthewire.org -P 2220
+After using our password we can see a File called "readme" 
+we just need to cat this file an we'll get the flag:
+cat readme 
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
