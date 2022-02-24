@@ -1,0 +1,5 @@
+Now we have to find the human-readable, 1033 bytes, not executable file in the directory "inhere"
+First of all we need to be in the directory "inhere" then we'll use the comand find to find a file with the size, non executable with the parameters:
+-size and ! -executable where ! means "false" then we can use xargs file to see the file type
+command: find -size 1033c ! -executable | xargs file
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
