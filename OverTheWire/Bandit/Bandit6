@@ -1,0 +1,11 @@
+In this Level we have to find the flag which is stored into a file owned by user bandit7 owned by group bandit6 and 33 bytes in size SOMEWHERE IN THE SERVER
+
+First of all we must go to /
+then we can find the file with the next command:
+find -size 33c -user bandit7 -group bandit6
+It will give us all the files with these features, we dont have permission in most of them.
+So we can add to the command find -size 33c -user bandit7 -group bandit6 2>/dev/null 
+2>/dev/null means send to /dev/null all those files thats give us the "2" error message that is "permission denied"
+find -size 33c -user bandit7 -group bandit6 2>/dev/null | xargs cat 
+This last command will give us the flag
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
