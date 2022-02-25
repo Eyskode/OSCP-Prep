@@ -1,6 +1,6 @@
 The password for the next level is stored in a file readme in the homedirectory. Unfortunately, someone has modified .bashrc to log you out when you log in with SSH.
 
-The way to scape from this is execute the command in the ssh connection command just like that
+The way to scape from this, is executing the command in the ssh connection command just like that
 The bashrc file will be executed once we get connected so we can add the command before we connect so we get a pseudo-shell
 
 Command: ssh bandit18@bandit.labs.overthewire.org -p 2220 bash
