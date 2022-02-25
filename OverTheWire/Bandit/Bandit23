@@ -1,3 +1,14 @@
 A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
 
+So in this Level we just have to create a sctipt and move it to /var/spool/bandit24/
+First of all we need to create a directory on /tmp then we have to give writing permissions to other users with chmod o+w /tmp/tmpexaple/
+then we create our script which will cat the /etc/bandit_pass/bandit24/ and will copy it intou our tmp directory and we will give executing perm to other users with chmod o+x sctipt.sh
+Then the script will be just like that
+#!/bin/bash
 
+cat /etc/bandit_pass/bandit24 > /tmp/tmpexample/flag.txt
+After that we just need to move it to te executing directory which is /var/spool/bandit24/
+after a while it will give us the flag
+
+
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
