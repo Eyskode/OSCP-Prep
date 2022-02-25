@@ -1,0 +1,7 @@
+A program is running automatically at regular intervals from cron, the time-based job scheduler. Look in /etc/cron.d/ for the configuration and see what command is being executed.
+
+in /ec/cron.d we can see a program called cronjob_bandit22 which executes the following script once a minute /usr/bin/cronjob_bandit22.sh
+so lets see what this script does
+This script executes a cat of /etc/bandit_pass/bandit22 in to the following file /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+so we just need to cat this file and we'll get the flag
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
