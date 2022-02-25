@@ -1,0 +1,5 @@
+Now we can see a file cron.d called cronjob_bandit23 which executes the following script /usr/bin/cronjob_bandit23.sh
+the following sctipt creates a file with the following string /tmp/"I am user bandit23" encrypted in md5sum
+This file contains the Flag so we just have to execute the following command to discovery the path
+commnad: echo 'I am user bandit23' | md5sum | cut -d ' ' -f 1
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
