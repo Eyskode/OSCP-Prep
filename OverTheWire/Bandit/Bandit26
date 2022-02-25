@@ -1,1 +1,6 @@
+Now we have a binary to execute as the user bandit27 just like in one of the past Levels so we just execute it and spawn an shell
+./bandit27-do sh
+whoami
+bandit27
 
+3ba3118a22e93127a4ed485be72ef5ea
