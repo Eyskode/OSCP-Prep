@@ -1,0 +1,8 @@
+There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21
+
+So first of all we need 2 ssh connections
+1- Start a connection with netcat for listen the port X: nc -lvnp 8888
+2- Execute the binary given in the port 8888: ./suconnect 8888
+In the netcat console we send the password of the user Bandit20 and it will give us the flag
+
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
