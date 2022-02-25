@@ -1,0 +1,5 @@
+In this Level we can see a script wich executes every command that we send as the user: bandit20
+So we just need to execute the sctipt and cat the flag
+./bandit20-do cat /etc/bandit_pass/bandit20
+and it will give us the flag
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
