@@ -1,0 +1,6 @@
+In this level we just need to switch the branch to dev
+We can check the existen branch with: branch -r
+to switch the branch we have to: git checkout dev
+Then just: git log -p 
+and we can see the flag
+5b90576bedb2cc04c86a9e924ce42faf
