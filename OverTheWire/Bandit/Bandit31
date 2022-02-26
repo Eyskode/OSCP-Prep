@@ -1,0 +1,6 @@
+First of all we need to create a key.txt that must contain the next text: May I come in?
+Now we need to add key.txt to our git: git add key.txt
+But first of all we need to delete the .gitignore file that is blocking us
+git commit -m 'test1'
+so now we just need to push the git: git push -u origin master
+56a9bf19c63d650ce78e6ec0354ee45e
