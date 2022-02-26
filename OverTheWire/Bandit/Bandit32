@@ -1,0 +1,5 @@
+In this Level every single word that we're writting is converted to UPPERCASE
+So we can still execute the system variables like $pwd
+$0 is the variable for our shell so if we: $0
+it will spawn the shell because there are no letters in here
+c9c3199ddf4121b10cf581a98d51caee
