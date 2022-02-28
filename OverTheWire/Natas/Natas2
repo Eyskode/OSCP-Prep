@@ -1,0 +1,6 @@
+After connecting and inspecting the page we'll see the next line
+<img src="files/pixel.png">
+Lets check the image, and there's nothing so let's check the http://natas2.natas.labs.overthewire.org/files
+And there is an .txt file that we can check
+http://natas2.natas.labs.overthewire.org/files/users.txt
+natas3:sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
