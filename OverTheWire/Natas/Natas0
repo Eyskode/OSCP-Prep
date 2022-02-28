@@ -1,1 +1,5 @@
-Test
+We just have to connect to http://natas0.natas.labs.overthewire.org
+With the user:natas0 Password:natas0 
+And we have to find the password for natas1.
+So we can check the source code pressing ctr+u and we'll get the flag
+gtVrDuiDfck831PqWsLEZy5gyDz1clto
