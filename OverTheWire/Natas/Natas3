@@ -1,0 +1,10 @@
+Once we inspect the html we can see a comment
+<!-- No more information leaks!! Not even Google will find it this time... -->
+The "Not even Google"
+So we know the file robots.txt used to skip the google search our commented directories 
+http://natas3.natas.labs.overthewire.org/robots.txt:
+User-agent: *
+Disallow: /s3cr3t/
+Lets go to http://natas3.natas.labs.overthewire.org/s3cr3t
+and again we can see a file called users.txt where is our flag
+Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
