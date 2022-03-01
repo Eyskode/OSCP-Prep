@@ -1,0 +1,4 @@
+We'll find a file with ls -a called .backup inside there is a file bookmarks.html
+So we just grep the word password inside the file and we'll find the password for the next level
+grep password bookmarks.html
+rioGegei8m
