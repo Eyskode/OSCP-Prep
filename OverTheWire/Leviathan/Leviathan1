@@ -1,0 +1,5 @@
+We can try executing the programm but it wont work because we'll need a password so lets check it with ltrace
+ltrace ./check
+It will give us some info strcmp its a a library that compares string and the we can see "sex"
+Wich looks like the password, we execute it with the password and it will give us a leviathan2 shell and now we can cat the flag
+ougahZi8Ta
